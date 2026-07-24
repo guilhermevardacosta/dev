@@ -1,17 +1,16 @@
 <!DOCTYPE html>
-
 <html lang="pt-BR">
 
     <head>
 
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Guilherme Vardacosta | Sites Profissionais para Negócios Locais</title>
-        <meta name="description" content="Criação de sites modernos, rápidos e focados em atrair clientes para pequenas empresas, profissionais autônomos e prestadores de serviços.">
+        <title>Guilherme Vardacosta | Sites Profissionais de Alta Conversão</title>
+        <meta name="description" content="Criação de sites modernos, elegantes e focados em atrair novos clientes diariamente para pequenas empresas e profissionais autônomos.">
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     
         <link rel="stylesheet" href="css/style.css">
@@ -20,26 +19,34 @@
 
     </head>
 
-    <body class="light-theme">
+    <body class="dark-theme">
+
+        <!-- Esferas luminosas de iluminação ambiente -->
+        <div class="glow-sphere sphere-1" aria-hidden="true"></div>
+        <div class="glow-sphere sphere-2" aria-hidden="true"></div>
+        <div class="glow-sphere sphere-3" aria-hidden="true"></div>
 
         <header id="header">
 
             <nav class="container">
 
-                <a href="#" class="logo">Guilherme Vardacosta</a>
+                <a href="#" class="logo">
+                    <span class="logo-mark">G</span>
+                    <span class="logo-text">Guilherme Vardacosta</span>
+                </a>
                 
                 <ul class="menu">
 
-                    <li><a href="#solucoes">O que fazemos</a></li>
-                    <li><a href="#beneficios">Por que ter um site</a></li>
+                    <li><a href="#solucoes">Soluções</a></li>
+                    <li><a href="#beneficios">Vantagens</a></li>
                     <li><a href="#modelos">Modelos</a></li>
-                    <li><a href="#contato" class="nav-cta">Fale Comigo</a></li>
+                    <li><a href="#contato" class="nav-cta">Solicitar Orçamento</a></li>
 
                 </ul>
 
-                <button id="theme-toggle" aria-label="Alternar tema visual">
+                <button id="theme-toggle" aria-label="Alternar modo de cor">
 
-                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
 
                 </button>
 
@@ -49,30 +56,75 @@
 
         <main>
 
+            <!-- HERO SECTION -->
             <section id="hero">
 
                 <div class="container hero-content">
 
                     <div class="hero-text">
 
-                        <h1>Sua empresa fora das redes sociais e dentro do Google</h1>
-                        <p>Transforme seguidores em clientes reais. Crio sites rápidos, modernos e totalmente otimizados para celulares, desenhados especificamente para destacar o seu negócio e gerar novos contatos diariamente.</p>
+                        <div class="badge-status reveal">
+                            <span class="status-dot"></span>
+                            <span>Presença Digital Premium &bull; Vagas abertas para esta semana</span>
+                        </div>
 
-                        <div class="hero-buttons">
+                        <h1 class="reveal delay-1">Sua empresa em destaque no Google com um site que <span class="gradient-text">vende todos os dias</span>.</h1>
+                        
+                        <p class="reveal delay-2">Não perca mais clientes para a concorrência por não ter um endereço próprio. Crio sites modernos, ultrarrápidos e desenhados para transformar visitantes em agendamentos no seu WhatsApp.</p>
 
-                            <a href="#contato" class="btn btn-primary">Quero um site para o meu negócio</a>
-                            <a href="#modelos" class="btn btn-secondary">Ver modelos prontos</a>
+                        <div class="hero-buttons reveal delay-3">
+
+                            <a href="#contato" class="btn btn-primary btn-glow">
+                                <span>Quero um site profissional</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                            <a href="#modelos" class="btn btn-secondary">
+                                <i class="fas fa-images"></i> Conhecer modelos
+                            </a>
+
+                        </div>
+
+                        <div class="hero-trust-bar reveal delay-3">
+
+                            <div class="trust-item">
+                                <i class="fas fa-bolt text-gradient-icon"></i>
+                                <span>Carregamento Instantâneo</span>
+                            </div>
+                            <div class="trust-item">
+                                <i class="fas fa-mobile-alt text-gradient-icon"></i>
+                                <span>100% Otimizado para Celulares</span>
+                            </div>
+                            <div class="trust-item">
+                                <i class="fas fa-check-circle text-gradient-icon"></i>
+                                <span>Pronto em até 7 dias</span>
+                            </div>
 
                         </div>
 
                     </div>
 
-                    <div class="hero-image-container">
+                    <div class="hero-image-container reveal delay-2">
 
-                        <img src="img/perfil-claro-frente.png" alt="Foto de Guilherme Vardacosta, especialista em presença digital para pequenos negócios" class="hero-img-front active" data-theme="light">
-                        <img src="img/perfil-claro-lado.png" alt="" class="hero-img-side" data-theme="light" aria-hidden="true">                        
-                        <img src="img/perfil-escuro-frente.png" alt="" class="hero-img-front" data-theme="dark" aria-hidden="true">
-                        <img src="img/perfil-escuro-lado.png" alt="" class="hero-img-side" data-theme="dark" aria-hidden="true">
+                        <div class="studio-frame">
+
+                            <div class="frame-bar">
+                                <div class="frame-dots">
+                                    <span></span><span></span><span></span>
+                                </div>
+                                <div class="frame-url">dev.guilhermevardacosta.com.br</div>
+                            </div>
+
+                            <div class="frame-content">
+
+                                <div class="hero-img-bg-glow"></div>
+                                <img src="img/perfil-claro-frente.png" alt="Guilherme Vardacosta - Especialista em Web Design" class="hero-img-front active" data-theme="light">
+                                <img src="img/perfil-claro-lado.png" alt="" class="hero-img-side" data-theme="light" aria-hidden="true">                        
+                                <img src="img/perfil-escuro-frente.png" alt="" class="hero-img-front" data-theme="dark" aria-hidden="true">
+                                <img src="img/perfil-escuro-lado.png" alt="" class="hero-img-side" data-theme="dark" aria-hidden="true">
+
+                            </div>
+
+                        </div>
 
                     </div>
 
@@ -80,35 +132,48 @@
 
             </section>
 
+            <!-- SOLUÇÕES -->
             <section id="solucoes">
 
                 <div class="container">
 
-                    <h2>Como posso ajudar o seu negócio a crescer</h2>
+                    <div class="section-header reveal">
+
+                        <span class="section-tag">O QUE FAZEMOS</span>
+                        <h2>Como impulsionamos a sua marca no mercado local</h2>
+                        <p class="section-subtitle">Tudo o que seu negócio precisa para transmitir confiança imediata e facilitar a decisão de compra do seu cliente.</p>
+
+                    </div>
 
                     <div class="grid-cards">
 
-                        <div class="card">
+                        <div class="card reveal delay-1">
 
-                            <i class="fas fa-mobile-alt card-icon"></i>
-                            <h3>Sites 100% Mobile</h3>
-                            <p>A maioria dos seus clientes busca serviços pelo celular. Nossos sites são criados sob medida para carregar instantaneamente em qualquer tela.</p>
-
-                        </div>
-
-                        <div class="card">
-
-                            <i class="fas fa-search card-icon"></i>
-                            <h3>Pronto para o Google</h3>
-                            <p>Estrutura técnica otimizada (SEO local) para fazer com que sua empresa seja encontrada por quem procura seus serviços na sua região.</p>
+                            <div class="card-icon-box">
+                                <i class="fas fa-wand-magic-sparkles"></i>
+                            </div>
+                            <h3>Design Elegante e Exclusivo</h3>
+                            <p>Visual moderno e alinhado ao seu segmento. Passamos a imagem de uma empresa consolidada e de alto padrão desde o primeiro segundo.</p>
 
                         </div>
 
-                        <div class="card">
+                        <div class="card reveal delay-2">
 
-                            <i class="fas fa-comments card-icon"></i>
-                            <h3>Integração com WhatsApp</h3>
-                            <p>Direcione o cliente interessado do site diretamente para o seu aplicativo de mensagens com apenas um clique, facilitando o agendamento.</p>
+                            <div class="card-icon-box">
+                                <i class="fas fa-location-dot"></i>
+                            </div>
+                            <h3>Visibilidade no Google (SEO)</h3>
+                            <p>Estrutura otimizada para que pessoas da sua região encontrem seus serviços exatamente no momento em que estão procurando.</p>
+
+                        </div>
+
+                        <div class="card reveal delay-3">
+
+                            <div class="card-icon-box">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <h3>Agendamento Direto no WhatsApp</h3>
+                            <p>Sem burocracia. O cliente clica no botão e já cai direto na sua conversa no WhatsApp com uma mensagem pronta sobre o serviço desejado.</p>
 
                         </div>
 
@@ -118,22 +183,52 @@
 
             </section>
 
+            <!-- BENEFÍCIOS -->
             <section id="beneficios">
 
-                <div class="container beneficios-container">
+                <div class="container">
 
-                    <div class="beneficios-text">
+                    <div class="beneficios-card reveal">
 
-                        <h2>Por que depender apenas do Instagram é um risco?</h2>
-                        <p>As redes sociais mudam as regras o tempo todo e o seu perfil pode perder o alcance da noite para o dia. Um site profissional é o seu terreno próprio na internet.</p>
+                        <div class="beneficios-grid">
 
-                        <ul class="beneficios-list">
+                            <div class="beneficios-info">
 
-                            <li><i class="fas fa-check-circle"></i> <strong>Credibilidade instantânea:</strong> Clientes confiam mais em empresas que possuem endereço próprio na web.</li>
-                            <li><i class="fas fa-check-circle"></i> <strong>Informações organizadas:</strong> Chega de responder as mesmas dúvidas de preço, horário e localização no direct.</li>
-                            <li><i class="fas fa-check-circle"></i> <strong>Disponível 24h:</strong> Sua empresa continua vendendo e recebendo pedidos de contato mesmo quando você está descansando.</li>
+                                <span class="section-tag">DIFERENCIAL ESTRATÉGICO</span>
+                                <h2>Por que depender apenas do Instagram é um risco?</h2>
+                                <p>As redes sociais mudam as regras o tempo todo e seu perfil pode perder o alcance. Um site próprio é a sede oficial da sua empresa na internet.</p>
 
-                        </ul>
+                                <ul class="beneficios-list">
+
+                                    <li>
+                                        <div class="check-badge"><i class="fas fa-check"></i></div>
+                                        <div>
+                                            <strong>Autoridade Imediata:</strong>
+                                            <p>Clientes confiam e pagam mais caro por empresas que possuem site próprio e estruturado.</p>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="check-badge"><i class="fas fa-check"></i></div>
+                                        <div>
+                                            <strong>Atendimento Ativo 24h:</strong>
+                                            <p>Informações organizadas sobre preços, horários e endereço sem você precisar responder as mesmas dúvidas no Direct.</p>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="check-badge"><i class="fas fa-check"></i></div>
+                                        <div>
+                                            <strong>Independência de Algoritmos:</strong>
+                                            <p>Seu endereço na web é permanentemente seu, funcionando dia e noite sem dependência de engajamento.</p>
+                                        </div>
+                                    </li>
+
+                                </ul>
+
+                            </div>
+
+                        </div>
 
                     </div>
 
@@ -141,61 +236,70 @@
 
             </section>
 
+            <!-- PORTFÓLIO / MODELOS -->
             <section id="modelos">
 
                 <div class="container">
 
-                    <h2>Estruturas prontas para o seu segmento</h2>
-                    <p class="section-subtitle">Desenvolvemos layouts focados na conversão de clientes para diversas áreas atuantes no mercado local.</p>
+                    <div class="section-header reveal">
+
+                        <span class="section-tag">ESTRUTURAS PRONTAS</span>
+                        <h2>Modelos desenhados para o seu segmento</h2>
+                        <p class="section-subtitle">Layouts testados e aprovados para máxima retenção visual e conversão de novos contatos.</p>
+
+                    </div>
                     
                     <div class="grid-portfolio">
 
-                        <div class="portfolio-item">
+                        <div class="portfolio-item reveal delay-1">
 
                             <div class="portfolio-img-wrapper">
 
                                 <img src="img/projeto1.png" alt="Demonstração de site para salões de beleza e estética">
+                                <div class="portfolio-category">Salões & Estética</div>
 
                             </div>
 
                             <div class="portfolio-info">
 
                                 <h3>Salões de Beleza e Barbearias</h3>
-                                <p>Design elegante com foco na exibição de serviços, galeria de cortes e botão direto para agendamento de horários.</p>
+                                <p>Visual sofisticado para destacar serviços, galeria de fotos do espaço e agendamento prático.</p>
 
                             </div>
 
                         </div>
 
-                        <div class="portfolio-item">
+                        <div class="portfolio-item reveal delay-2">
 
                             <div class="portfolio-img-wrapper">
 
                                 <img src="img/projeto2.png" alt="Demonstração de site portfólio para fotógrafos profissionais">
+                                <div class="portfolio-category">Fotografia & Estúdios</div>
 
                             </div>
 
                             <div class="portfolio-info">
 
                                 <h3>Fotógrafos e Estúdios</h3>
-                                <p>Galeria de imagens de alta performance otimizada para carregar fotos pesadas rapidamente sem perder a qualidade visual.</p>
+                                <p>Exibição de portfólio em altíssima qualidade visual com carregamento fluido em qualquer smartphone.</p>
 
                             </div>
 
                         </div>
 
-                        <div class="portfolio-item">
+                        <div class="portfolio-item reveal delay-3">
 
                             <div class="portfolio-img-wrapper">
 
                                 <img src="img/projeto3.jpeg" alt="Demonstração de site institucional para prestadores de serviço">
+                                <div class="portfolio-category">Serviços & Consultorias</div>
 
                             </div>
 
                             <div class="portfolio-info">
 
-                                <h3>Consultores e Prestadores de Serviço</h3>
-                                <p>Páginas focadas na apresentação de autoridade, depoimentos de clientes e formulários ágeis de contato.</p>
+                                <h3>Consultores e Profissionais Liberais</h3>
+                                <p>Páginas focadas em passar máxima credibilidade, depoimentos de clientes e solicitação ágil de orçamentos.</p>
 
                             </div>
 
@@ -207,44 +311,65 @@
 
             </section>
 
+            <!-- CONTATO -->
             <section id="contato">
 
                 <div class="container">
 
-                    <div class="contato-wrapper">
+                    <div class="contato-card reveal">
 
-                        <div class="contato-info">
+                        <div class="contato-grid">
 
-                            <h2>Vamos colocar sua empresa na internet esta semana?</h2>
-                            <p>Preencha os dados ao lado para conversarmos diretamente no WhatsApp. Criaremos uma estratégia sob medida para o orçamento do seu negócio.</p>
+                            <div class="contato-text">
 
-                        </div>
-                        
-                        <div class="contato-form-container">
+                                <span class="section-tag">ATENDIMENTO DIRETO</span>
+                                <h2>Vamos transformar a presença da sua empresa esta semana?</h2>
+                                <p>Preencha os campos ao lado. Vou analisar o seu segmento e te responder diretamente no WhatsApp com uma proposta personalizada para a sua necessidade.</p>
 
-                            <form id="contact-form" data-method="whatsapp">
+                                <div class="contact-badges">
 
-                                <div class="form-group">
+                                    <div class="badge-item">
+                                        <i class="fas fa-clock"></i>
+                                        <span>Retorno rápido no mesmo dia</span>
+                                    </div>
 
-                                    <label for="name">Seu Nome ou Nome da Empresa</label>
-                                    <input type="text" id="name" name="name" required placeholder="Ex: João Cabeleireiro">
-
-                                </div>
-
-                                <div class="form-group">
-
-                                    <label for="message">Fale um pouco sobre o seu negócio</label>
-                                    <textarea id="message" name="message" rows="5" required placeholder="Quais serviços você oferece e qual o seu principal objetivo com o site?"></textarea>
+                                    <div class="badge-item">
+                                        <i class="fas fa-shield-halved"></i>
+                                        <span>Projeto sob medida sem mensalidades ocultas</span>
+                                    </div>
 
                                 </div>
 
-                                <button type="submit" class="btn btn-primary" id="submit-button">
+                            </div>
+                            
+                            <div class="contato-form-container">
 
-                                    <i class="fab fa-whatsapp"></i> Enviar via WhatsApp
+                                <form id="contact-form" data-method="whatsapp">
 
-                                </button>
+                                    <div class="form-group">
 
-                            </form>
+                                        <label for="name">Seu Nome ou Nome da Empresa</label>
+                                        <input type="text" id="name" name="name" required placeholder="Ex: Maria - Estética Avançada">
+
+                                    </div>
+
+                                    <div class="form-group">
+
+                                        <label for="message">Como posso te ajudar?</label>
+                                        <textarea id="message" name="message" rows="4" required placeholder="Ex: Gostaria de um site para o meu salão de beleza para agendar horários pelo WhatsApp..."></textarea>
+
+                                    </div>
+
+                                    <button type="submit" class="btn btn-primary btn-glow btn-full" id="submit-button">
+
+                                        <i class="fab fa-whatsapp"></i>
+                                        <span>Conversar pelo WhatsApp</span>
+
+                                    </button>
+
+                                </form>
+
+                            </div>
 
                         </div>
 
@@ -262,10 +387,10 @@
 
                 <p>&copy; 2026 Guilherme Vardacosta. Todos os direitos reservados.</p>
 
-                <div class="social-links-footer" role="group" aria-label="Links corporativos no rodapé">
+                <div class="social-links-footer" role="group" aria-label="Redes Sociais">
 
-                    <a href="https://instagram.com/guilhermevardacosta" target="_blank" aria-label="Instagram da empresa"><i class="fab fa-instagram"></i></a>
-                    <a href="https://www.linkedin.com/in/guilhermevardacosta" target="_blank" aria-label="LinkedIn Profissional"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://instagram.com/guilhermevardacosta" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/guilhermevardacosta" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
 
                 </div>
 
